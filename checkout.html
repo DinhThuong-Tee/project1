@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh toán - MIUMIU SHOP</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="checkout-container">
+      <form
+        class="checkout-form"
+        onsubmit="submitCheckoutForm(); return false;"
+      >
+        <h2>Thông tin thanh toán</h2>
+        <label for="doorNumber">Số nhà:</label>
+        <input type="text" id="doorNumber" required />
+        <label for="street">Đường:</label>
+        <input type="text" id="street" required />
+        <label for="city">Thành phố:</label>
+        <input type="text" id="city" required />
+        <label for="district">Quận:</label>
+        <input type="text" id="district" required />
+        <button type="submit">Thanh toán</button>
+        <p id="checkout-error-message" class="error"></p>
+        <p id="success-message" class="success" style="display: none">
+          Thanh toán thành công!
+        </p>
+      </form>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

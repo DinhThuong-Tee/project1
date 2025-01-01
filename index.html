@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIUMIU SHOP</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="logo">MIUMIU</div>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Tìm kiếm sản phẩm"
+          />
+          <button onclick="searchProducts()">Tìm kiếm</button>
+        </div>
+        <div class="user-menu">
+          <a href="signin.html">Đăng nhập</a>
+          <a href="cart.html">Giỏ hàng</a>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Khuyến mãi</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar">
+        <h3>Danh mục sản phẩm</h3>
+        <div class="category-buttons" id="category-buttons">
+          <!-- Các nút danh mục sản phẩm sẽ được thêm vào đây -->
+        </div>
+      </aside>
+      <main class="main-content">
+        <h2>Danh sách sản phẩm</h2>
+        <div class="product-list" id="product-list">
+          <!-- Các sản phẩm sẽ được thêm vào đây -->
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+        <p>Địa chỉ: Số 123, Đường ABC, Quận 1, TP. Hồ Chí Minh, Việt Nam</p>
+        <p>Điện thoại: (0123) 456-7890</p>
+        <p>Email: contact@miumiushop.com</p>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

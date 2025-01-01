@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký - MIUMIU SHOP</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <form class="signup-form" onsubmit="submitSignupForm(); return false;">
+        <h2>Đăng ký</h2>
+        <label for="firstname">Họ:</label>
+        <input type="text" id="firstname" required />
+        <label for="lastname">Tên:</label>
+        <input type="text" id="lastname" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" required />
+        <button type="submit">Đăng ký</button>
+        <p id="signup-error-message" class="error"></p>
+      </form>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
